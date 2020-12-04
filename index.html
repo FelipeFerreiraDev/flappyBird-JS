@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Flappy Bird - FerreiraDev</title>
 </head>
-<body>
-    <canvas id="game-canvas" width="320" height="400"></canvas>
-    <style>
-        body {
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        canvas {
-            border: 1px solid #000;
-            display: block;
-            margin: 0 auto;
-        }
-    </style>
 
-    <script src="jogo.js"></script>
-    
+<body>
+    <header>
+        <div class="name">
+            Felipe Ferreira Dev
+        </div>
+    </header>
+    <main>
+        <canvas id="game-canvas" width="320" height="400"></canvas>
+        <script src="jogo.js"></script>
+    </main>
+    <footer>
+        <div class="soltinho">
+            Produzido na aula do
+            <a href="http://https://www.youtube.com/channel/UCzR2u5RWXWjUh7CwLSvbitA">
+                Dev Soutinho
+            </a>
+        </div>
+    </footer>
 </body>
+
 </html>
