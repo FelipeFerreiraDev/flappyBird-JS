@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
-body{
+body {
     background-color: black;
 }
 
@@ -18,10 +17,16 @@ header {
     font-family: 'Press Start 2P', cursive;
 }
 
+.name:hover {
+    transition: 0.5s;
+    color: #fcb700;
+    text-decoration: none;
+}
+
 main {
     min-height: 80vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(26, 26, 26);
 }
@@ -35,13 +40,39 @@ canvas {
 footer {
     margin: 2vh;
     font-size: 4vh;
-    color: whitesmoke;
+    color: #fcb700;
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: 'Press Start 2P', cursive;   
+    font-family: 'Press Start 2P', cursive;
 }
 
 a {
+    color: #fcb700;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: #fc8600;
+}
+
+img {
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+    margin-left: 1.3vw;
+    margin-top: 1vw;
+}
+
+.original {
+    margin-left: 1vw;
+}
+
+.alinhamento {
+    display: flex;
+    flex-direction: column;
     color: whitesmoke;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
